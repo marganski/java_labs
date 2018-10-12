@@ -22,12 +22,7 @@ public class DataFrame {
     }
     
    
-    public void add(Object[] wartosci){
-        int i = 0;
-        for (Kol col:Ramka){
-            col.list.add(wartosci[i++]);
-        }
-    }
+  
     //public void addonposition(int index, Object wartosc){
     //	Ramka.get(index).list.add(wartosc);
     //}
@@ -61,6 +56,12 @@ public class DataFrame {
         return dataFrame;
     }
 
+    public void add(Object[] wartosci){
+        int i = 0;
+        for (Kol col:Ramka){
+            col.list.add(wartosci[i++]);
+        }
+    }
     public DataFrame iloc(int a, int b){
         
         int size = Ramka.size();

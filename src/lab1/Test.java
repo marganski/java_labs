@@ -6,8 +6,6 @@ public class Test {
                 new String[]{"int","double","MyCustomType"});
     	df.size();
     	df.get("kol1");
-    	
-    	
     	df.get(new String[]{"kol2", "kol3"}, true);
     	df.add(new Object[]{1,2,3});
     	df.add(new Object[]{4.5,6.7,8.9});
