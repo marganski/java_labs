@@ -15,7 +15,12 @@ public class Test {
     	df.print();
     	System.out.println(" ");
     	//df.addonposition(2, 99);
-    	df.print();
+    	//df.print();
+    	SparseDataFrame sdf= new SparseDataFrame(new String[]{"kol1","kol2","kol3"},
+                new String[]{"int","double","MyCustomType"},"hide");
+    	int i = sdf.size();
+    	System.out.println(i);
+    	
 
     	
     }
